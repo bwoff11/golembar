@@ -1,0 +1,5 @@
+"custom/golembar": {
+  "interval": 360,
+  "return-type": "json",
+  "exec": "~/.path/to/your/golembar",
+},
