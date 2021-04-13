@@ -85,7 +85,7 @@ func getMarketVal() float64 {
 	q.Add("slug", "golem")
 
 	req.Header.Set("Accepts", "application/json")
-	req.Header.Add("X-CMC_PRO_API_KEY", "YOUR_API_TOKEN")
+	req.Header.Add("X-CMC_PRO_API_KEY", "YOUR_API_KEY")
 	req.URL.RawQuery = q.Encode()
 
 	resp, err := client.Do(req)
